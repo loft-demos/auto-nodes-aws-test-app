@@ -1,0 +1,4 @@
+repo=auto-nodes-aws-test-app
+branch=auto-nodes-aws
+source_commit=0f4b17f7e9cea534003a0026cf2ae1a6c36f5699
+completed_at=2026-04-23T22:56:32Z
