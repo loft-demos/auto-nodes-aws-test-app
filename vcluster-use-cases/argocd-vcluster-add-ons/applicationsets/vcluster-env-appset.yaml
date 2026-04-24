@@ -27,11 +27,11 @@ spec:
     spec:
       destination:
         namespace: auto-nodes-aws-test-app-{{.metadata.labels.env}}
-        server: '{{.server}}'
+        name: '{{.name}}'
       info:
         - name: Git Repo
           value: 'https://github.com/loft-demos/auto-nodes-aws-test-app/'
-      project: 'loft-{{ index .metadata.labels "use-case.demos.vcluster.com/project" }}'
+      project: 'loft-{{ index .metadata.labels "demos.vcluster.com/project" }}'
       source:
         path: vcluster-use-cases/argocd-vcluster-add-ons/manifests/{{.metadata.labels.env}}/
         repoURL: 'https://github.com/loft-demos/auto-nodes-aws-test-app.git'
