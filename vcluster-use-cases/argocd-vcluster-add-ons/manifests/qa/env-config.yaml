@@ -5,4 +5,4 @@ metadata:
 data:
   # property-like keys; each key maps to a simple value
   env: "qa"
-  color: pink
+  color: blue
